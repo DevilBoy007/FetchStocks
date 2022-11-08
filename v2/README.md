@@ -1,11 +1,10 @@
-DO NOT MODIFY test.xlsx 
+## *DO NOT MODIFY test.xlsx*
+
 THIS IS THE EXCEL TEMPLATE THAT THE PROGRAM REFERS TO WHEN CREATING/
 EXPORTING NEW WORKBOOKS
 
-				STEPS TO RUN PROGRAM:
-
-Windows:
-----------------------------------------------------------------------------------------=
+## STEPS TO RUN PROGRAM: ##
+#### Windows: ####
 
 	1. Unzip Stocker.zip
 
@@ -38,26 +37,13 @@ Windows:
 
 		The app should start once make is complete.
 -----------------------------------------------------------------------------------------
-
-
-			For experienced BASH/SHELL navigators
+#### For experienced BASH/SHELL navigators:
 -----------------------------------------------------------------------------------------
 
-1. unzip
-	you already did :)
-2. using package manager of your choice (mine is pip3), install dependencies:
-	
-	pip3 install easygui
-	pip3 install openpyxl
-	pip3 install requests
-
-3. navigate to ../Stocker/
-
-	cd Downloads/Stocker/
-
-4. run it
-
-	python3 app_v2.py
-
-5. You already installed the dependencies so the Makefile is obsolete :)
-
+	1. clone repo
+		`git clone https://github.com/DevilBoy007/FetchStocks`
+	2. navigate to directory in your shell
+		`cd ~/path/to/repo`
+	3. execute Makefile
+		`make`
+	4. You're done!
